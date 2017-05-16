@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFAA66CC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="HAPPY BIRTHDAY"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFAA66CC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="TO"/>
+    <ImageView
+        android:id="@+id/wow"
+        android:layout_width="fill_parent"
+        android:layout_height="168dp"
+        android:gravity="center"
+        android:src="@drawable/happy"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#e15258"
+        android:textStyle="bold"
+        android:text="God had a pretty good plan when he made you so plan on having a pretty fun birthday !"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFAA66CC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="FROM"/>
+</LinearLayout>
+
